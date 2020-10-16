@@ -1,0 +1,88 @@
+.news-container {
+  margin-top: 50px;
+  height: 400px;
+  padding: 20px 20px;
+  gap: 20px;
+  width: 1200px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.news-filtering {
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  display: flex;
+  gap: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.news-filtering h2 {
+  transition: 0.5s ease;
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+}
+
+.news-filtering h2:hover {
+  transform: scale(1.1);
+  color: rgb(214, 255, 148);
+}
+
+.news-search {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  color: white;
+  border-width: 2px;
+  padding: 2px;
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  font-size: 16px;
+}
+
+.news-search::placeholder {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.news-container::-webkit-scrollbar {
+  height: 0.5rem;
+}
+.news-container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+.news-container::-webkit-scrollbar-thumb {
+  background: rgba(240, 91, 91, 0.5);
+  border-radius: 20px;
+}
+
+.active-news {
+  cursor: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+  color: rgb(169, 211, 102);
+}
+
+.active-news:hover {
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+  color: rgb(169, 211, 102);
+  transform: none;
+}

@@ -1,0 +1,44 @@
+.pinned-components {
+  padding: 30px 20px;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: rgba(54, 54, 54, 0.7);
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.pinned-components::-webkit-scrollbar {
+  height: 0.5rem;
+}
+.pinned-components::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+.pinned-components::-webkit-scrollbar-thumb {
+  background: rgba(240, 91, 91, 0.5);
+  border-radius: 20px;
+}
+
+.pinned-components .note-component {
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  background: white;
+  color: rgb(31, 31, 31);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: 1s ease;
+}
+
+.pinned-components .note-component p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 50px;
+  white-space: pre-line;
+}

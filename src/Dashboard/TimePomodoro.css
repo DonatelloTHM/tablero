@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+.time-h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 150px;
+  margin: 0;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+}
+
+
+.time-date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-right: 50px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+}
+
+.time-seconds {
+  margin: 0;
+  margin-top: 23px;
+  align-self: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+}
+
+.time {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.time-seconds {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  transition: 0.5s ease;
+}
+
+.time-seconds:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.rotate-in-2-cw {
+  -webkit-animation: rotate-in-2-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: rotate-in-2-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes rotate-in-2-cw {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-2-cw {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}

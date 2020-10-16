@@ -1,0 +1,14 @@
+h1 {
+  margin: 0px;
+}
+h5 {
+  margin: 0px;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

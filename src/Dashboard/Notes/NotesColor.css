@@ -1,0 +1,14 @@
+.color-container {
+  display: flex;
+  width: 200px;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  right: 1%;
+  bottom: 14%;
+  background-color: rgb(32, 32, 32);
+  padding: 20px 10px;
+  z-index: 10;
+  border-radius: 5%;
+}

@@ -1,0 +1,68 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.username-input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  color: white;
+  border-width: 2px;
+  padding: 2px;
+  transition: 0.5s ease;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.password-input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  color: white;
+  border-width: 2px;
+  padding: 2px;
+  transition: 0.5s ease;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.login-parent {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 80px;
+  border-radius: 20px;
+}
+
+.submit-login {
+  width: 50%;
+  margin-top: 10px;
+  padding: 8px;
+  color: white;
+  border: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  background: none;
+  border: 1px white;
+  border-style: solid;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(207, 207, 207);
+  margin-bottom: 60px;
+}

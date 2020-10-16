@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+.journal-editor {
+  width: 50%;
+  margin-left: auto;
+  height: 100%;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 20px;
+}
+
+.react-quill {
+  position: absolute;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 17px;
+  height: 80%;
+  bottom: 7%;
+}
+
+.ql-editor {
+  font-family: adobe-text-pro, serif;
+  padding: 40px 120px;
+  font-weight: 400;
+  padding-left: 80px;
+  font-size: 20px;
+  font-style: normal;
+  border: none;
+  outline: none;
+}
+
+.ql-editor h1 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 20px;
+}
+
+.ql-editor ul {
+  margin-bottom: 30px;
+}
+
+.ql-editor h2 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 15px;
+}
+
+.ql-editor p {
+  margin-bottom: 30px;
+  background: white;
+}
+
+.ql-snow .ql-editor pre.ql-syntax {
+  padding: 30px;
+  font-size: 16px;
+  color: black;
+  background-color: rgb(241, 241, 241);
+  font-family: "Fira Code", monospace;
+  margin-bottom: 30px;
+}
+
+.ql-editor a {
+  color: rgb(65, 65, 65);
+}
+
+.ql-toolbar.ql-snow {
+  border: none;
+  display: flex;
+  padding-top: 1px;
+  padding-left: 80px;
+}
+
+.ql-container.ql-snow {
+  border: none;
+  height: 100%;
+}
+
+.journal-form {
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+}
+
+.journal-title {
+  width: 80%;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(24, 24, 24);
+  color: rgb(24, 24, 24);
+  border-width: 2px;
+  padding: 2px;
+  transition: 0.5s ease;
+  height: 40px;
+  font-size: 16px;
+}
+
+.journal-title::placeholder {
+  color: rgb(78, 78, 78);
+}
+
+.journal-submit {
+  margin-top: 10px;
+  padding: 8px;
+  color: rgb(15, 15, 15);
+  border: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background: none;
+  border: 2px rgb(0, 0, 0);
+  border-style: solid;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.scale-in-br {
+  -webkit-animation: scale-in-br 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-br 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes scale-in-br {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-br {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}

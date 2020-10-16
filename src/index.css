@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+html {
+  background: url("https://images.unsplash.com/photo-1510495953850-ddd057203644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQzMzEwfQ&auto=format&fit=crop&w=1500&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+}

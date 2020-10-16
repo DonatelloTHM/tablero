@@ -1,0 +1,30 @@
+.todo-filter {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 20px;
+  padding-top: 0%;
+  margin-bottom: 10px;
+  padding-left: 0%;
+}
+
+.todo-filter h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.active-filter {
+  transform: scale(1.1);
+  color: rgb(196, 255, 108);
+}
+.inactive-filter {
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.inactive-filter:hover {
+  color: rgb(255, 196, 108);
+  transform: scale(1.1);
+}

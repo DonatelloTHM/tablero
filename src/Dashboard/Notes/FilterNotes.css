@@ -1,0 +1,79 @@
+.notes-filter {
+  display: flex;
+  position: absolute;
+  z-index: 12;
+  background-color: rgb(36, 36, 36);
+  left: 1%;
+  bottom: 2%;
+  padding: 20px 30px;
+  align-items: flex-end;
+  gap: 30px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.notes-filter select {
+  width: 80%;
+  padding: 8px;
+  color: white;
+  border: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background: none;
+  border: 1px white;
+  border-style: solid;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.notes-filter select:focus {
+  outline: none;
+  border-color: rgb(107, 231, 161);
+}
+
+.filter-text {
+  width: 80%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  color: white;
+  border-width: 1px;
+  padding: 8px;
+  transition: 0.5s ease;
+  font-size: 16px;
+}
+
+.filter-text::placeholder {
+  color: rgb(158, 158, 158);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.date-filter-styling {
+  background: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px white;
+  border-bottom-style: solid;
+  color: white;
+  cursor: pointer;
+}
+
+.date-filter-styling:focus {
+  outline: none;
+  border-color: rgb(107, 231, 161);
+}
+
+.date-filter-styling::placeholder {
+  color: rgb(158, 158, 158);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}

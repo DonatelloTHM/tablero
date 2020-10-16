@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.note-component {
+  /* width: 200px; */
+  /* height: 200px; */
+  min-width: 200px;
+  background: white;
+  color: rgb(31, 31, 31);
+  border-radius: 5px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: 1s ease;
+}
+
+.note-component h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.note-component p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 50px;
+  white-space: pre-line;
+  outline: none;
+}
+
+.note-component h5 {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: auto;
+  padding: 5px 10px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  text-align: center;
+  bottom: 10px;
+  left: 10px;
+}
+
+.fade-in-left {
+  -webkit-animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.work {
+  color: rgb(255, 115, 0);
+  border-color: rgb(255, 115, 0);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.work:hover {
+  background: rgb(255, 115, 0);
+  color: white;
+}
+.personal {
+  color: rgb(1, 189, 132);
+  border-color: rgb(1, 189, 132);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.personal:hover {
+  background: rgb(1, 189, 132);
+  color: white;
+}
+
+.inspirational {
+  color: rgb(27, 132, 230);
+  border-color: rgb(27, 132, 230);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.inspirational:hover {
+  background: rgb(27, 132, 230);
+  color: white;
+}
+
+.pinned-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.pinned-icon:hover {
+  transform: scale(1.2);
+}
+
+.delete-note {
+  position: absolute;
+  bottom: 10px;
+  right: 45px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.delete-note:hover {
+  transform: scale(1.2);
+}
+
+.note-component:hover .delete-note {
+  opacity: 1;
+}
+
+.note-component:hover .change-color {
+  opacity: 1;
+}
+
+.change-color {
+  position: absolute;
+  bottom: 10px;
+  right: 82px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.change-color:hover {
+  transform: scale(1.2);
+}
+
+.color-box {
+  display: flex;
+  width: 180px;
+  height: 180px;
+  gap: 20px;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  bottom: -28px;
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.fade-in {
+  -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.scale-in-ver-top {
+  -webkit-animation: scale-in-ver-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-in-ver-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes scale-in-ver-top {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-top {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,48 @@
+.weather-comp {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  z-index: 1000;
+  right: 3%;
+  top: 3%;
+}
+
+.weather-temperature {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+}
+
+.weather-description {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  align-self: center;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+}
+
+.weather-city {
+  margin: 0;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 2px 2px rgba(0, 0, 0, 0.09),
+    0 4px 4px rgba(0, 0, 0, 0.09), 0 8px 8px rgba(0, 0, 0, 0.09),
+    0 16px 16px rgba(0, 0, 0, 0.09), 0 32px 32px rgba(0, 0, 0, 0.09);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 1px;
+  align-self: center;
+}

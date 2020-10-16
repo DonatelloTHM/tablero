@@ -1,0 +1,15 @@
+.color-comp {
+  width: 40px;
+  height: 40px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.color-comp:hover {
+  transform: scale(1.2);
+}
+
+.color-comp:active {
+  transform: scale(0.9);
+}

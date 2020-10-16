@@ -1,0 +1,20 @@
+.all-journals {
+  background: white;
+  width: 800px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  align-content: flex-start;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.all-journals h4 {
+  position: absolute;
+  bottom: 0px;
+  left: 23%;
+  color: white;
+}
