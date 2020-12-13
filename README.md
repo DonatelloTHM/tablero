@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tablero
+[Video Demo](https://www.youtube.com/watch?v=cCPrYWB_dHU)
 
-## Available Scripts
+Tablero is nn all-in-one productivity dashboard
 
-In the project directory, you can run:
+[Link to Backend API](https://github.com/DonatelloTHM/Tablero-backend)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
+* [Getting Started](#getting-started)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Tools](#tools)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Tabblero](https://i.ibb.co/ctw5CYF/Screen-Shot-2020-12-12-at-7-59-12-PM.png)
 
-### `yarn test`
+<a name="getting-started"/>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+1. Install [Rails Backend API](https://github.com/DonatelloTHM/Tablero-backend)
+2. Install [Node.js and npm](https://www.npmjs.com/get-npm)
 
-### `yarn build`
+    ```$ brew install node```
+    
+3. Clone this repo and cd into the directory
+4. Install all dependencies
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```$ npm install```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+5. Make sure the Rails server is running and then run the app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```$ npm start```
+    
+<a name="features"/>
 
-### `yarn eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### News Aggregator
+![News](https://i.ibb.co/wJzV9Nv/newsgif.gif)
+* Search for the most recent news. 
+* Filter news by category
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### To-Do
+![Todo](https://i.ibb.co/QXzpB1r/todo.gif)
+* Create, edit, delete a todo from a todo list
+* Filter by all, active or completed, 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Notes
+![Notes](https://i.ibb.co/cwyffHZ/ezgif-com-gif-maker-2.gif)
+![Notes](https://i.ibb.co/k8TJYzj/notesfilter.gif)
+* Create, edit, delete notes.
+* Filter notes by different attributes
+* Change the color of note cards.
+* Pin important notes.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Journal
+![Journal](https://i.ibb.co/60Df3rV/Screen-Shot-2020-12-12-at-8-06-07-PM.png)
+![Journal](https://i.ibb.co/g607QN2/journalgif.gif)
+* Create and format journals, articles etc.
+* Search through all of your documents in less than a second.
+* Filter and sort by different attributes.
+* Code highlighting for Ruby and Javascript.
 
-## Learn More
+### Pomodoro
+![Pomodoro](https://i.ibb.co/Tg8SVhQ/pomodoro.gif)
+* Switch to pomodoro mode
+* Remove distractions from the dashboard.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a name="tech-stack"/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
+* React.js
+* Ruby on Rails API (Backend: https://github.com/DonatelloTHM/Tablero-backend)
+* PostgreSQL
+* HTML/CSS
+* Active Record
 
-### Code Splitting
+<a name="tools"/>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Tools
+* [Rack CORS](https://github.com/cyu/rack-cors)
+* [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers)
+* [BCrypt](https://github.com/codahale/bcrypt-ruby)
+* [JWT](https://github.com/jwt/ruby-jwt)
+* [MomentJS](https://momentjs.com/)
+* [React Quill](https://github.com/zenoamaro/react-quill)
