@@ -12,7 +12,7 @@ Tablero is nn all-in-one productivity dashboard
 * [Tech Stack](#tech-stack)
 * [Tools](#tools)
 
-![Tabblero](https://i.ibb.co/ctw5CYF/Screen-Shot-2020-12-12-at-7-59-12-PM.png)
+![Tablero](https://i.ibb.co/ctw5CYF/Screen-Shot-2020-12-12-at-7-59-12-PM.png)
 
 <a name="getting-started"/>
 
